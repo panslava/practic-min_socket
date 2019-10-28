@@ -2,5 +2,5 @@ FROM python:3
 
 COPY ./main.py .
 
-EXPOSE 9091
+EXPOSE 65432
 CMD ["python", "main.py"]
